@@ -5,6 +5,8 @@ import { Sky } from "three/examples/jsm/objects/Sky.js";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { GUI } from "three/examples/jsm/libs/lil-gui.module.min.js";
 
+import bg from "/node_modules/three/textures/waternormals.jpg";
+
 //canvas
 const canvas = document.querySelector("#canvas");
 
@@ -43,7 +45,7 @@ const water = new Water(
 	{
 		textureWidth: 512,
 		textureHeight: 512,
-		waterNormals: new THREE.TextureLoader().load('node_modules/three/textures/waternormals.jpg', function (texture) {
+		waterNormals: new THREE.TextureLoader().load(bg, function (texture) {
 			texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
 		}),
 		sunDirection: new THREE.Vector3(),
