@@ -29,7 +29,7 @@ camera.position.set(30, 30, 100);
 //レンダラー
 const renderer = new THREE.WebGLRenderer({
 	canvas: canvas,
-	alpha: true,
+	// alpha: true,
 });
 renderer.setSize(sizes.width, sizes.height);
 renderer.setPixelRatio(window.devicePixelRatio);
