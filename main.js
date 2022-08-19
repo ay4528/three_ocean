@@ -5,7 +5,7 @@ import { Sky } from "three/examples/jsm/objects/Sky.js";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { GUI } from "three/examples/jsm/libs/lil-gui.module.min.js";
 
-import bg from "/node_modules/three/textures/waternormals.jpg";
+import bg from "./textures/waternormals.jpg";
 
 //canvas
 const canvas = document.querySelector("#canvas");
