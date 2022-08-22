@@ -74,7 +74,7 @@ skyUniforms['mieCoefficient'].value = 0.005;
 skyUniforms['mieDirectionalG'].value = 0.8;
 
 const parameters = {
-	elevation: 2,
+	elevation: 13,
 	azimuth: 180
 };
 
